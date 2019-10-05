@@ -3,11 +3,11 @@
 int main(){
 	int a,n,c;
 	n=0;
-	printf("输入整数:");
+	printf("脢盲脠毛脮没脢媒:");
 	scanf("%d",&a);
 	char b[1000];
 	c=a;
-	while((c%10)!=0){
+	whil(c!=0){
 		n++;
 		c=c/10;
 	} 
@@ -15,6 +15,6 @@ int main(){
 		b[i]=a%10+48;
 		a=a/10;
 	}
-    printf("输出字符串:%s",b);	
+    printf("脢盲鲁枚脳脰路没麓庐:%s",b);	
 	return 0;
 }
